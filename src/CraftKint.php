@@ -14,6 +14,7 @@ namespace agencyleroy\craftkint;
 use Craft;
 use craft\base\Plugin;
 use Kint\Twig\TwigExtension;
+use Kint\Renderer\RichRenderer;
 
 class CraftKint extends Plugin {
 
@@ -22,6 +23,7 @@ class CraftKint extends Plugin {
 
     if (Craft::$app->request->getIsSiteRequest()) {
       $kint = new TwigExtension();
+      RichRenderer::$folder = false;
       Craft::$app->view->registerTwigExtension($kint);
     }
   }
