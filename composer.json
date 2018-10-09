@@ -1,0 +1,26 @@
+{
+    "name": "agencyleroy/craft-kint",
+    "description": "Craft CMS plugin for Kint debugging",
+    "version": "1.0.0",
+    "type": "craft-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcus Aschan",
+            "email": "marcus@agencyleroy.com"
+        }
+    ],
+    "require": {
+        "kint-php/kint-twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "agencyleroy\\craftkint\\": "src/"
+        }
+    },
+    "extra": {
+        "handle": "craft-kint",
+        "name": "Craft kint",
+        "class": "agencyleroy\\craftkint\\CraftKint"
+    }
+}
