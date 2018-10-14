@@ -15,3 +15,4 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - Add CHANGELOG.md
 - Update name of plugin to "Kint Debugger"
 - Add icon
+- Remove repository info from README.md

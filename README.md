@@ -18,18 +18,7 @@ This plugin requires Craft CMS 3.0 or later.
 
 ## Installation with Composer
 
-1. Add the following to the repositories section of your `composer.json` file.
-
-```json
-"repositories": [
-  {
-    "type": "vcs",
-    "url": "https://github.com/agencyleroy/craft-kint"
-  }
-]
-```
-
-2. Enable the plugin by running the following `composer require` command:
+Install the plugin by running:
 
 ```console
 foo@bar:~$ composer require agencyleroy/craft-kint
